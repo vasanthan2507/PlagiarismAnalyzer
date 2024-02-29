@@ -2,6 +2,6 @@
 
 ##  Procedure to run:
 
-  #Install the requirements using pip install -r requirements.txt
+  #Install the requirements using "pip install -r requirements.txt"
   
-  #Run server python manage.py runserver
+  #Run server "python3 manage.py runserver"
