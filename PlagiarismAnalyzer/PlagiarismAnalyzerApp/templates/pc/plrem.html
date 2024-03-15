@@ -23,8 +23,8 @@
 
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark" >
-        <a class="navbar-brand" href="{% url 'about' %}">Plagiarism Analyzer</a>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #ffcc00;">
+        <a class="navbar-brand" href="{% url 'plagiarism-check-mainpage' %}" style="color: black;">Plagiarism Analyzer</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -32,17 +32,17 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav" style="margin-left: 0;">
             <li class="nav-item nav-one">
-              <a class="nav-link" href="{% url 'plagiarism-check-mainpage' %}">Home <span
+              <a class="nav-link" href="{% url 'plagiarism-check-mainpage' %}" style="color: black;">Home <span
                   class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item nav-two">
-              <a class="nav-link" href="{% url 'compare' %}">Compare Documents</a>
+              <a class="nav-link" href="{% url 'compare' %}" style="color: black;">Compare Documents</a>
             </li>
             <li class="nav-item nav-two">
-                <a class="nav-link" href="{% url 'plrem' %}">Plagiarism Remover</a>
+                <a class="nav-link" href="{% url 'plrem' %}" style="color: black;">Plagiarism Remover</a>
               </li>
           <li class="nav-item nav-two">
-            <a class="nav-link" href="{% url 'about' %}">About</a>
+            <a class="nav-link" href="{% url 'about' %}" style="color: black;">About</a>
           </li> 
         </ul>
         </div>
