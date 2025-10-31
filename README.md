@@ -99,12 +99,6 @@ Then open your browser and go to:
 
 This project is licensed under the **MIT License** – see the LICENSE file for details.
 
----
 
-## 🖼️ Preview
-
-*Add screenshots or demo GIFs of your web interface here to make the README more attractive.*
-
----
 
 ⭐ **If you like this project, give it a star on GitHub!**
